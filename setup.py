@@ -7,4 +7,5 @@ setup(
     version = __version__,
     author = __author__,
     packages = ['SlackClientWrapper'],
+    install_requires=['slackclient'],
 )
