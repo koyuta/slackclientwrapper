@@ -1,11 +1,11 @@
 # -*- coding:utf-8 -*-
 from setuptools import setup
-from SlackClientWrapper import __author__, __version__
 
-setup(
-    name = 'slackclientwrapper',
-    version = __version__,
-    author = __author__,
-    packages = ['SlackClientWrapper'],
-    install_requires=['slackclient'],
-)
+setup(name='slackclientwrapper',
+      version="1.0.0",
+      author="koyuta",
+      packages=['SlackClientWrapper'],
+      install_requires=[
+          'slackclient',
+      ],
+      zip_safe=False)
