@@ -1,7 +1,9 @@
 # Usage
 
-```
+```python
 from SlackClientWrapper import Client, Reciever
+
+r = Reciever()
 
 @r.match('Hello world')
 def matcher(post):
